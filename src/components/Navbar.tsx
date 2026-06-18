@@ -42,9 +42,7 @@ const Navbar = () => {
   return (
     <>
       <div className="header">
-        <a href="/#" className="navbar-title" data-cursor="disable">
-          F
-        </a>
+        <span className="navbar-title"></span>
         <a
           href="https://linkedin.com/in/faris-syed-104aa7179"
           className="navbar-connect"

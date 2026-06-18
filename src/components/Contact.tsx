@@ -11,22 +11,11 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://linkedin.com/in/faris-syed-104aa7179"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:faris.syed@live.in"
                 data-cursor="disable"
               >
-                LinkedIn: faris-syed
+                faris.syed@live.in
               </a>
-            </p>
-            <h4>Education</h4>
-            <p>
-              MSc Automotive Engineering with Business Management (Merit),
-              University of Bath, 2024–2025
-            </p>
-            <p>
-              BEng (Hons) Automotive Engineering (2:1), Heriot-Watt University
-              Dubai, 2021–2024
             </p>
           </div>
           <div className="contact-box">
