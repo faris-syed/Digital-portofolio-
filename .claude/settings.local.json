@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Read(//opt/homebrew/**)",
+      "Read(//usr/local/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//opt/homebrew/lib/node_modules/npm/bin/**)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_context_mcp"
+    ]
+  }
+}
