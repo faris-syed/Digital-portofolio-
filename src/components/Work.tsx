@@ -133,7 +133,7 @@ const projects: Array<{
     title: "EV Conversion Kit",
     category: "Universal Classic Vehicle Retrofit",
     tools: "Tesla Model 3 drive unit · custom subframe · 1969 Mustang · Fuse UAE",
-    image: "/images/ev-conversion.jpeg",
+    image: "/images/ev-conversion.png",
     link: "#",
     caseStudy: {
       title: "EV Conversion Kit",
