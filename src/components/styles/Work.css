@@ -1,0 +1,309 @@
+/* ── Work Section ── */
+.work-section {
+  position: relative;
+  z-index: 1;
+  background-color: var(--backgroundColor);
+  padding: 80px 0;
+}
+
+.work-section h2 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.work-section h2>span {
+  color: var(--accentColor);
+}
+
+.work-container {
+  margin: auto;
+}
+
+/* ── Projects Grid ── */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.project-card {
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: rgba(94, 234, 212, 0.3);
+  transform: translateY(-4px);
+}
+
+/* ── Card Image ── */
+.project-image {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+.project-number {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  padding: 4px 10px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+.project-external {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.project-external:hover {
+  background: var(--accentColor);
+  color: #111;
+}
+
+/* ── Card Info ── */
+.project-info {
+  padding: 24px;
+}
+
+.project-category {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accentColor);
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+.project-info h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.project-tools {
+  font-size: 14px;
+  font-weight: 200;
+  color: #888;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+/* ── Card Actions ── */
+.project-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.case-study-btn-link {
+  color: #ccc;
+  border-color: #444;
+}
+
+.case-study-btn-link:hover {
+  color: var(--accentColor);
+}
+
+/* ── Case Study Button ── */
+.case-study-btn {
+  background: transparent;
+  border: 1px solid #333;
+  color: var(--accentColor);
+  font-size: 13px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.case-study-btn:hover {
+  background: rgba(94, 234, 212, 0.08);
+  border-color: var(--accentColor);
+  box-shadow: 0 0 16px rgba(94, 234, 212, 0.12);
+}
+
+/* ── PDF Viewer Modal ── */
+.pdf-viewer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  animation: pdfFadeIn 0.2s ease;
+}
+
+@keyframes pdfFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.pdf-viewer-panel {
+  width: 100%;
+  max-width: 1100px;
+  height: 85vh;
+  background: #111;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: pdfSlideUp 0.25s ease;
+}
+
+@keyframes pdfSlideUp {
+  from { transform: translateY(24px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.pdf-viewer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-bottom: 1px solid #2a2a2a;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #aaa;
+}
+
+.pdf-viewer-close {
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pdf-viewer-close:hover {
+  border-color: var(--accentColor);
+  color: var(--accentColor);
+}
+
+.pdf-viewer-frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+  background: #1a1a1a;
+}
+
+/* ── Poster Viewer ── */
+.poster-viewer-panel {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  animation: pdfSlideUp 0.25s ease;
+}
+
+.poster-viewer-img {
+  max-width: 100%;
+  max-height: 88vh;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.poster-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+/* ── Responsive ── */
+@media only screen and (max-width: 1400px) {
+  .work-section h2 {
+    font-size: 50px;
+  }
+
+  .projects-grid {
+    gap: 30px;
+  }
+
+  .project-info h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .project-image {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .work-section {
+    padding: 50px 0;
+  }
+
+  .work-section h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+}

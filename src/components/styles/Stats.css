@@ -1,0 +1,50 @@
+.stats-strip {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: var(--cWidth);
+  max-width: var(--cMaxWidth);
+  margin: 0 auto;
+  padding: 40px 0 60px;
+  border-top: 1px solid #2a2a2a;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.stat-value {
+  font-family: "Geist", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--accentColor);
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.stat-label {
+  font-size: 13px;
+  font-weight: 300;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .stats-strip {
+    gap: 30px;
+    padding: 30px 20px 50px;
+  }
+  .stat-value {
+    font-size: 38px;
+  }
+  .stat-label {
+    font-size: 11px;
+  }
+}
