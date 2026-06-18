@@ -15,23 +15,10 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Graduate Engineer Trainee</h4>
-                <h5>Roll Group · Abu Dhabi</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Heavy-lift and transport engineering at a Dutch multinational.
-              Graduate engineer on project and technical delivery.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
                 <h4>Workshop Coordinator</h4>
                 <h5>Alba Cars · Dubai</h5>
               </div>
-              <h3>2025–26</h3>
+              <h3>Nov 2025 – Mar 2026</h3>
             </div>
             <p>
               Led daily refurbishment ops across partner workshops, directing
@@ -45,7 +32,7 @@ const Career = () => {
                 <h4>Research Technician</h4>
                 <h5>Heriot-Watt University · Dubai</h5>
               </div>
-              <h3>2025</h3>
+              <h3>Oct 2025</h3>
             </div>
             <p>
               Contributed to R&amp;D of a liquid-cooled photovoltaic system for
@@ -59,7 +46,7 @@ const Career = () => {
                 <h4>Business &amp; Technical Consultant</h4>
                 <h5>AVL Powertrain UK · Bath</h5>
               </div>
-              <h3>2025</h3>
+              <h3>Jun – Sep 2025</h3>
             </div>
             <p>
               Led a graduate consulting engagement assessing the feasibility of
@@ -73,7 +60,7 @@ const Career = () => {
                 <h4>Engineering Consultant</h4>
                 <h5>Fuse.AE · Dubai</h5>
               </div>
-              <h3>2023–24</h3>
+              <h3>Sep 2023 – Apr 2024</h3>
             </div>
             <p>
               Led a multidisciplinary team to design an immersion-cooled battery
@@ -87,7 +74,7 @@ const Career = () => {
                 <h4>Motorsport Engineering Intern</h4>
                 <h5>CWS Engineering · Dubai</h5>
               </div>
-              <h3>2024</h3>
+              <h3>Jan 2024</h3>
             </div>
             <p>
               Contributed to tyre changes, vehicle setup, and strategic mods in a
@@ -101,7 +88,7 @@ const Career = () => {
                 <h4>Aftersales &amp; Service Intern</h4>
                 <h5>Mercedes-Benz Gargash · Dubai</h5>
               </div>
-              <h3>2023</h3>
+              <h3>Jun – Aug 2023</h3>
             </div>
             <p>
               Executed advanced diagnostics and repairs with Xentry tools on
@@ -115,7 +102,7 @@ const Career = () => {
                 <h4>Race / Data Engineer Intern</h4>
                 <h5>HRT Performance · Dubai</h5>
               </div>
-              <h3>2022</h3>
+              <h3>Jan 2022</h3>
             </div>
             <p>
               Collected telemetry and analysed fuel, pace, and competitor data in

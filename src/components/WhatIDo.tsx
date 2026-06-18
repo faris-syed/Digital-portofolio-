@@ -87,22 +87,13 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>EV &amp; ENERGY SYSTEMS</h3>
-              <h4>Battery & Powertrain Engineering</h4>
+              <h3>ENGINEERING &amp; SIMULATION</h3>
+              <h4>Design, Modelling & Validation</h4>
               <p>
-                I design and validate EV battery packs and powertrains, from cell
-                selection and thermal management to full-vehicle simulation,
-                balancing performance, weight, and safety.
+                I take problems from concept through simulation and physical
+                testing: EV battery and powertrain design, vehicle modelling,
+                thermal management, and autonomous-vehicle perception.
               </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">Battery pack design</div>
-                <div className="what-tags">Thermal management</div>
-                <div className="what-tags">Powertrain simulation</div>
-                <div className="what-tags">Second-life BESS</div>
-                <div className="what-tags">DFMEA / DFMA</div>
-                <div className="what-tags">MPS / MRP / BOM</div>
-              </div>
               <div className="what-arrow"></div>
             </div>
           </div>
@@ -125,22 +116,13 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>SIMULATION &amp; AUTONOMY</h3>
-              <h4>Modelling & Autonomous Systems</h4>
+              <h3>PROJECT DELIVERY &amp; STRATEGY</h3>
+              <h4>Management, Consulting & Operations</h4>
               <p>
-                I build and validate physics-based models, and develop perception
-                systems for autonomous vehicles, turning data and first principles
-                into validated, real-world results.
+                I manage projects end-to-end and bridge the commercial side:
+                feasibility studies, go-to-market strategy, workshop operations,
+                and the business case behind engineering decisions.
               </p>
-              <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
-                <div className="what-tags">AVL CRUISE M</div>
-                <div className="what-tags">MATLAB / Simulink</div>
-                <div className="what-tags">ANSYS · COMSOL</div>
-                <div className="what-tags">CARLA Simulator</div>
-                <div className="what-tags">Python · YOLO</div>
-                <div className="what-tags">Telemetry / Race data</div>
-              </div>
               <div className="what-arrow"></div>
             </div>
           </div>
